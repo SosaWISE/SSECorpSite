@@ -1,0 +1,471 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body { margin-bottom: 0px;}
+ul, ol {padding-left: 0px;}
+ul li a {font-size: 1em;line-height:21px;}
+ul li{list-style:none;}
+.component-content ul li, .component-content ol li {line-height:1.5em;}
+
+
+/*Members Login Popup*/
+#rt-popup,#rokbox-caption {display: none;}
+#rokbox-middle .rokbox-center{position:relative; height: 380px !important;}
+#rokbox-close {left: 195px; position: relative; top: 0; z-index: 10;}
+#rokbox-container {position: relative;top: 0px; z-index: 5;}
+#modlgn_username, #modlgn_passwd{width:205px;}
+#modlgn_remember{position:relative;	top:2px; left:10px;}
+
+#form-login p {margin-bottom: 15px;}
+div.k2LoginBlock fieldset.input p {margin: 0; padding: 0;}	
+
+
+
+/*----------------------------------Mainbody------------------------------------------*/
+
+div.itemIsFeatured, div.catItemIsFeatured, div.userItemIsFeatured { background: none;}
+
+/*Lists*/
+.even, .odd{background: none; border-bottom: none; padding: 0px;}
+
+
+/*---------------Category Listing-------------------*/
+
+div.catItemBody {margin: 0; padding: 0;position:relative;}
+
+div.itemListCategory {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0px;
+}
+
+div.catItemView {padding: 0px;}
+
+div.catItemCategory {
+    border-bottom: none;
+    padding: 0px;
+}
+
+div.catItemHitsBlock {
+    border-bottom: none;
+    padding: 0px;
+}
+
+div.catItemCategory span {color:inherit;}
+
+
+div.catItemIntroText {
+    font-size: inherit;
+    font-weight: normal;
+    line-height: inherit;
+    padding: 0px;
+	margin: 0 1em 0 0;
+}
+#about div.catItemIntroText{margin:0 35px 0 0;}
+
+div.catItemTagsBlock {
+    border-bottom: none;
+    padding: 0px;
+}
+
+div.catItemLinks {margin: 0; padding: 0;}
+
+div.catItemHeader span.catItemDateCreated {
+    font-size: 1em;
+}
+
+
+
+/*---Category listing images---*/
+
+span.catItemImage img {border: none; padding: 0px;}
+div.catItemImageBlock {margin: 0 0 1em 0; padding: 0px;}
+span.catItemImage {display: block; margin: 0; text-align: left;}
+span.catItemImage a{display:block;}
+
+/*---------------------------Generic View (Archives, Search)----------------------------*/
+
+div.genericItemView {border-bottom: none; margin: 0 0 3em; padding: 0;}
+div.genericItemBody {margin: 0; padding: 0;}
+div.genericItemIntroText {font-size: inherit;  font-weight: inherit; line-height: inherit; padding: 0; overflow: hidden;}
+span.genericItemImage img {border: none; padding: 0px; margin: 0.5em 1em 0 0;}
+
+/*--------------------------------------Author Page-------------------------------------*/
+div.userItemBody {margin: 0 0 20px; padding: 0;}
+span.userItemImage img {border: none; padding: 0px;}
+div.userItemIntroText {font-size: inherit;  font-weight: inherit; line-height: inherit; padding: 0; overflow: hidden;}
+div.userItemView{border-bottom: none; margin: 0 0 3em; padding: 0;}
+
+/*------------------------------------------Item View---------------------------------*/
+
+div.itemToolbar {
+    background: none;
+    border-bottom: none;
+    border-top: none;
+    margin: 16px 0 0;
+    padding: 0;
+}
+
+div.itemToolbar ul li a#fontDecrease:hover,
+div.itemToolbar ul li a#fontIncrease:hover {text-decoration:none;}
+
+div.itemHeader span.itemDateCreated {
+    font-size: 1em;
+}
+
+div.itemNavigation {
+    background: none;
+    border-bottom: none;
+    border-top: none;
+    margin: 0 0 24px;
+    padding: 0;
+}
+
+div.itemIntroText {
+    color: inherit;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 21px;
+    padding:0;
+}
+#blog div.itemIntroText{clear:both;}
+
+div.itemContentFooter {
+    border-top: none;
+    color: inherit;
+    display: block;
+    margin: 16px 0 4px;
+    padding: 0px;
+    text-align: right;
+}
+
+div.itemCategory {border-bottom:none; padding: 0px;}
+div.itemImageBlock {float: left; margin: 0 1em 1em 0; padding: 0;}
+span.itemImage {display: block; margin: 0; text-align: left;}
+span.itemImage img {border: none; padding: 0px;}
+div.itemBackToTop {text-align: right; display:none;}
+div.itemView {border-bottom: none;}
+div.itemBody {margin: 0; padding: 0;}
+
+
+/*AddThis Social Buttons*/
+
+div.social-button{
+    overflow: hidden;
+    padding: 1em 0 3em;}
+	
+
+div.social-button span.label{
+    display: block;
+    float: left;
+    line-height: 32px;
+	}
+
+
+
+
+/*---Rating---*/
+
+div.catItemRatingBlock,
+div.itemRatingBlock {padding: 0; float:right;}
+
+div.catItemRatingBlock span{color:inherit;}
+
+div.catItemRatingBlock span,
+div.itemRatingBlock span {
+    display: block;
+    float: left;
+    font-style: normal;
+    margin: 0;
+    padding: 0 4px 0 0;
+}
+
+
+.itemRatingList, .itemRatingList a:hover, .itemRatingList .itemCurrentRating {
+    background: url("../images/system/transparent_star.png") repeat-x scroll transparent;}
+
+.itemRatingList{background-position: left top;}
+.itemRatingList a:hover {background-position: left -25px;}
+.itemRatingList .itemCurrentRating{background-position: left -25px;}
+
+div.itemRatingBlock span {
+    color:inherit;
+    display: block;
+    float: left;
+    font-style: normal;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 4px 0 0;
+}
+
+.component-content ul.itemRatingList {
+    background-position: left top;
+    float: left;
+    height: 25px;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 105px;
+}
+
+.itemRatingLog {
+    float: left;
+    font-size: 11px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0 0 0 4px;
+}
+
+/*----------------Rockbox----------*/
+
+#sbox-overlay, #rokbox-overlay{z-index:655500 !important}
+#sbox-window, #rokbox-wrapper{z-index:655502 !important;}
+
+/*----------------Comments-------------*/
+
+div.itemCommentsForm p.itemCommentsFormNotes {border-top: none;}
+
+div.itemAuthorBlock {
+    background: none;
+    border: none;
+    margin: 0 0 16px;
+    padding: 0px;
+}
+
+div.itemComments {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+div.itemAuthorBlock div.itemAuthorDetails {margin: 0; padding: 0;}
+
+div.itemComments ul.itemCommentsList li span.commentDate {
+    border-right: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+div.itemComments ul.itemCommentsList li span.commentAuthorName
+{font-weight:bold; font-size:1em;color:#659225;}
+div.itemComments ul.itemCommentsList li span.commentDate{font-weight:normal; font-size:1em;color:#659225;font-style:italic;}
+
+div.itemComments ul.itemCommentsList li span.commentLink a,
+div.itemComments ul.itemCommentsList li span.commentLink a:hover,
+div.itemComments ul.itemCommentsList li span.commentToolbar a,
+div.itemComments ul.itemCommentsList li span.commentToolbar a:hover{font-size:1em;	color:inherit;}
+	
+div.itemComments ul.itemCommentsList li span.commentLink a:hover,
+div.itemComments ul.itemCommentsList li span.commentToolbar a:hover{text-decoration:underline;}
+
+div.itemComments ul.itemCommentsList li img {
+    background: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    float: left;
+    padding: 0px;margin:0 19px 15px 0;
+}
+
+div.itemComments ul.itemCommentsList li p{padding:0;}
+div.itemComments ul.itemCommentsList li {background:#fff !important;border:1px solid #e1e1e1;padding:20px;}
+
+div.itemCommentsForm form label.formName,
+div.itemCommentsForm form label.formEmail,
+div.itemCommentsForm form label.formUrl,
+div.itemCommentsForm form label.formComment{display: block;}
+
+div.itemCommentsForm form input#submitCommentButton {display: block;}
+
+
+/*Loading*/
+div.itemCommentsForm form {	position:relative;}
+
+div.itemCommentsForm form span#formLog {
+    bottom: 10px;
+    display: block;
+    left: 250px;
+    line-height: 1.8em;
+    margin: 0;
+    position: relative;
+    top: -25px;	}
+
+div.itemCommentsForm form .formLogLoading {
+    background: url("../images/system/loading.gif") no-repeat scroll left center transparent;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+
+	
+/*Report Comment*/
+
+div.k2ReportCommentFormContainer {
+    margin: 0;
+    padding: 8px;
+    width: 480px;
+}
+
+
+/*----------------------------------------Contact Form------------------------------*/
+
+.component-content form fieldset dt {
+    clear: left;
+    float: left;
+    padding: 0;
+    width: 150px;
+}
+
+.component-content form fieldset dd {
+    float: left;
+    padding: 0;
+	margin-bottom:1em;
+}
+
+.component-content .contact .button { margin: 0;}
+
+input.invalid,
+textarea.invalid{
+	border:1px solid #F00 !important;
+	box-shadow:none;}
+	
+#jform_contact_email_copy{    
+	display: inline;
+    height: auto;
+    left: 0;
+    margin: 0;
+    position: relative;
+    top: 4px;
+    width: auto;}
+
+
+
+
+
+
+
+/*-----------------------------------------Create Account------------------------------*/
+
+.k2AccountPage th.k2ProfileHeading {background: none; font-size: 2em; padding: 0 0 1em !important; text-align: left;}
+.k2AccountPage table.admintable td.key, .k2AccountPage table.admintable td.paramlist_key {
+    background: none;
+    border-bottom: none;
+    border-right: none;
+    width: 100px;
+}
+.component-content th {border-bottom: none;}
+.k2AccountPage div.k2AccountPageUpdate {border-top: none; margin: 0 0 0 315px; padding: 0px; text-align: left;}
+#josForm .componentheading{display:none;}
+#josForm .inputbox{margin: 0.5em 0;}
+.k2AccountPage table tr td label {margin: 0 0.5em 0 0; white-space: nowrap;}
+#josForm textarea#description, #josForm input#image{margin: 0 0 0.5em 0;}
+	
+	
+/*---------------------------------Reset & Remind--------------------------*/
+
+.component-content .reset,
+.component-content .remind{
+	padding: 2em 0;}
+	
+/*-----------------------------------Search Results------------------------------*/
+
+div.form-limit-and-counter{
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding:1em;
+	margin:1em 0;
+	overflow:hidden;}
+
+.component-content .form-limit,
+.component-content p.counter {
+	display:block;
+	padding:0;
+	margin:0;}
+	
+.component-content .form-limit{float:right;}
+.component-content p.counter{float:left;}
+
+.component-content dl.search-results dd.result-created,
+.component-content dl.search-results dd.result-category{
+	display:inline;
+	padding:0;}
+
+
+
+/*----------------------------------Sidebars------------------------------------------*/
+
+#rt-sidebar-a,
+#rt-sidebar-b,
+#rt-sidebar-c {
+    background: none;
+}
+.apps .moduleItemImage{margin:0 0 10px;}
+	
+/*----------------------------------Modules------------------------------------------*/
+
+.rt-block {
+    margin-bottom: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+
+div.k2ItemsBlock ul li div.moduleItemIntrotext {
+    line-height:inherit;
+    padding: 0;
+}
+
+div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img {
+    border: none;
+    float: left;
+    padding: 0;
+    margin:0;
+}
+
+/*User Login*/
+
+#form-login #modlgn_remember{    
+	display: inline;
+    height: auto;
+    left: 1em;
+    margin: 0;
+    position: relative;
+    top: 1px;
+    width: auto;}
+
+
+
+/*Last Comments Module*/
+
+div.k2LatestCommentsBlock ul li {margin: 0 0 1em;}
+div.k2LatestCommentsBlock ul li a.k2Avatar{display: block; float: left;}
+div.k2LatestCommentsBlock ul li a.k2Avatar img {
+    background: none;
+    border: none;
+    margin: 0 1em 1em 0;
+    padding: 0px;
+}
+div.k2LatestCommentsBlock ul li span.lcUsername,
+div.k2LatestCommentsBlock ul li span.lcCommentDate {display:block;}
+div.k2LatestCommentsBlock ul li span.lcComment {clear: both; display: block;}
+
+
+/*Social Media links*/
+
+.smilecredits{display:none;}
+
+/*Search*/
+div.mod_search{margin:0 0 70px;}
+div.mod_search  input#mod-search-searchword{
+margin-bottom:20px;}
+
+
+/*IE Warning*/
+
+#rt-iewarn {background:url(../images/system/ie-warn-bg.jpg) top left repeat-x;}
+#rt-iewarn .rt-container{background:none;}
