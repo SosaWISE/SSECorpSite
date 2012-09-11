@@ -42,7 +42,7 @@ JHtml::_('behavior.keepalive');
 	</div>
 	<?php endif; ?>
 	<fieldset class="userdata">
-	<p id="form-login-username">
+	<p id="form-login-username" class="AndresSosa">
 		<label for="modlgn-username"><?php echo JText::_('MOD_LOGIN_VALUE_USERNAME') ?></label><br />
 		<input id="modlgn-username" type="text" name="username" class="inputbox"  size="18" />
 	</p>
